@@ -1,0 +1,27 @@
+/** CREATE TABLE books:
+the cat and the hat (1), 14 
+ relentless (5), 15
+ city of amber (3), 13
+ wine talk (4), 56
+church (1), 7,
+ kenedy bio (4), 76
+harry potter (5), 5 
+ art of seduction (5), 23 
+ life of pie (3), 7
+
+**/
+
+
+CREATE TABLE "books" (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER, quantity INTEGER);
+
+INSERT INTO books VALUES (1, "the cat and the hat", 1, 14);
+INSERT INTO books VALUES (2, "relentless", 5, 15);
+INSERT INTO books VALUES (3, "city of amber", 3, 13);
+INSERT INTO books VALUES (4, "wine talk", 4, 56);
+INSERT INTO books VALUES (5, "church", 1, 7);
+INSERT INTO books VALUES (6, "kenedy bio", 4, 76);
+INSERT INTO books VALUES (7, "harry potter", 5, 5);
+INSERT INTO books VALUES (8, "art of seduction", 5, 23);
+INSERT INTO books VALUES (9, "art of pie", 3, 7);
+
+SELECT * FROM books
